@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/title"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <RelativeLayout
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:text="@string/play"
+            android:layout_weight="2"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:background="@drawable/cutombutton"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <Button
+            android:id="@+id/inst"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:background="@drawable/cutombutton"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/instTitle"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_below="@id/play"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            />
+
+        <Button
+            android:id="@+id/highScores"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/inst"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/cutombutton"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/rating"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/exitbuttin"
+            android:layout_width="102dp"
+            android:layout_height="39dp"
+            android:layout_below="@id/highScores"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="@string/end"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/allerta_stencil"
+            android:textStyle="bold"
+            android:background="@drawable/exitbtn" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/coronanim"
+            android:src="@drawable/coroanim"
+            android:layout_below="@id/exitbuttin"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:id="@+id/volumeBtn"
+            android:src="@drawable/ic_baseline_volume_up_24"
+            android:layout_alignParentBottom="true"/>
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/titan_one"
+        android:text="@string/gameOver"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textStyle="italic"
+        android:lines="1"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameOver"
+        android:text="@string/scoreTxt"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/tvHighScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:textAlignment="center"
+        android:hint="@string/hintstring"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:maxLength="20"
+        />
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHighScore"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/titan_one"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/kid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/submit_btn"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kidover" />
+
+    <Button
+        android:id="@+id/highScore"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_dark_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp"
+        android:text="@string/highScore2"
+        android:fontFamily="@font/titan_one"
+
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/startOver"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_dark_background"
+        android:padding="10dp"
+        android:fontFamily="@font/titan_one"
+
+        android:text="@string/playAgain"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:id="@+id/instTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/titan_one"
+        android:text="@string/instTitle"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:singleLine="true"
+        />
+
+
+    <TextView
+        android:id="@+id/instText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instTitle"
+        android:text="@string/instText1"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:id="@+id/enemies"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/instText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/enemies"
+        />
+
+    <TextView
+        android:id="@+id/instText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instText1"
+        android:paddingTop="100dp"
+        android:text="@string/instText2"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/syr"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/instText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/vacc" />
+
+
+
+    <TextView
+        android:id="@+id/instText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instText2"
+        android:paddingTop="100dp"
+        android:text="@string/instText3"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/mask"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/instText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/mask" />
+
+
+    <ImageView
+
+        android:id="@+id/bullet"
+        android:layout_width="20dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/instText3"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/bullet1" />
+
+    <TextView
+        android:id="@+id/instText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instText3"
+        android:paddingTop="100dp"
+        android:text="@string/instText4"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/gcoind"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/instTex5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/coin" />
+
+
+    <TextView
+        android:id="@+id/instTex5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instText4"
+        android:text="@string/instText5"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>

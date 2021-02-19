@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ברח מהקורונה</string>
+    <string name="devlop">פותח על ידי</string>
+    <string name="names">אושרי כהן ומור אופיר</string>
+    <string name="scoreTxt">ניקוד :</string>
+    <string name="play">התחל משחק</string>
+    <string name="rating">טבלת הטובים ביותר</string>
+    <string name="end">יציאה</string>
+    <string name="gameOver">המשחק נגמר</string>
+    <string name="playAgain">שחק שוב</string>
+    <string name="highScore2">הטובים ביותר</string>
+    <string name="tos_txt1">לחץ שוב ליציאה</string>
+    <string name="numOfBullets">כדורים:</string>
+    <string name="highscorelist">הטובים ביותר</string>
+    <string name="submit">הוסף</string>
+    <string name="pointsgame">הניקוד שלך :</string>
+    <string name="hintstring">הכנס את שמך</string>
+    <string name="toastlastchance">ניסיון אחרון !</string>
+    <string name="shild">מוגן מאויבים !</string>
+    <string name="submit2">נוסף בהצלחה!</string>
+    <string name="floorIsLava">אסור לגעת בקרקע</string>
+    <string name="enter_name">הכנס שם</string>
+    <string name="names2">שמות</string>
+    <string name="nameNull">חייב להכניס שם</string>
+    <string name="lifeUp">אספת 3 חיסונים, חיים עלו!</string>
+    <string name="instText2">המזרק נותן לך 5 נקודות ומגן עלייך ל3 שניות. בנוסף אם לקחת חמישה מזרקים תקבל חיים נוספים אקסטרה!</string>
+    <string name="instText3">המסכה נותנת לך 15 נקודות, בנוסף כדור אחד על מנת לירות באויבים. על מנת לירות החלק משמאל לימין!</string>
+    <string name="instText4">מטבע הזהב נותן לך 20 נקודות, זכור לאסוף כמה שיותר מהם.</string>
+    <string name="instText5">זכור שאסור לגעת ברצפה, על מנת לא להיפסל</string>
+    <string name="instTitle">הוראות</string>
+    <string name="instText1">נגדך עומדים ארבעה אויבים מפחידים,  שלושה וירוסים ועטלף אחד. בכל נגיעה בהם ירד לך חיים</string>
+</resources>
